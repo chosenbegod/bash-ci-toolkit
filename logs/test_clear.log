@@ -1,0 +1,3 @@
+PASS test_add
+PASS test_sub
+PASS test_mul
