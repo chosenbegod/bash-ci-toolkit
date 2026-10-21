@@ -1,5 +1,9 @@
 #!/bin/bash
 # Главный скрипт пайплайна
+if [ "$1" = "--version" ]; then
+	echo "bash-ci-toolkit 1.0"
+	exit 0
+fi
 if [ -z "$1" ]; then
     echo "Укажи путь к логу"
 	exit 3
