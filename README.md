@@ -5,6 +5,12 @@
 ## запуск
 
 ```bash
+./ci.sh --version
+```
+
+выводит версию проекта; завершается с кодом 0
+
+```bash
 DEPLOY_ENV=staging ./ci.sh logs/test_clear.log
 ```
 
